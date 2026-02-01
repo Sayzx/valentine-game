@@ -1,7 +1,7 @@
 # Dockerfile for Next.js App
 
 # 1. Base image
-FROM node:18-alpine AS base
+FROM node:20-alpine AS base
 
 # 2. Dependencies
 FROM base AS deps
