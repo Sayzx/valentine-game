@@ -1,0 +1,11 @@
+services:
+  app:
+    container_name: st-val-game
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "9999:3000"
+    environment:
+      - NODE_ENV=production
